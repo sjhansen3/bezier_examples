@@ -33,7 +33,7 @@ int main(int argc,
 
   // Get package path
   std::string meshes_path = ros::package::getPath(package) + "/meshes/";
-  std::string mesh_ressources = "package://" + package + "/meshes/";
+  std::string mesh_ressources = "/home/sjhansen3/peanut_ws/src/bezier/meshes";
 
   // Parameters defined in the launch file
   std::string mesh_cad_filename;

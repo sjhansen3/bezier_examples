@@ -32,7 +32,7 @@ int main(int argc,
   ros::NodeHandle nh;
 
   // Get package path
-  std::string meshes_path = ros::package::getPath(package) + "/meshes/";
+  std::string meshes_path = "/home/sjhansen3/peanut_ws/src/bezier/meshes";
   std::string mesh_ressources = "/home/sjhansen3/peanut_ws/src/bezier/meshes";
 
   // Parameters defined in the launch file

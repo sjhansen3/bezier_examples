@@ -56,6 +56,6 @@
   <node name="bezier_examples_surfacing" pkg="bezier_examples" type="bezier_examples_surfacing" output="screen" required="true" />
 
   <include file="$(find fanuc_m10ia_support)/launch/load_m10ia.launch" />
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find bezier_examples)/config/robot_state_visualize.rviz" required="true" />
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find bezier_examples)/config/robot_state_visualize.rviz" required="true" /> -->
 </launch>
 
